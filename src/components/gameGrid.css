@@ -1,0 +1,41 @@
+
+.header { 
+    display: flex;
+      height: 60px;
+      background-color: #ce97bd;
+    justify-content: center;
+    align-items: center;
+    }
+.gridItem{
+    width: 25px; 
+    height: 25px;
+    background-color: #ce97bd;
+    border:1px solid #eeeeee;
+    display: inline-block;
+}
+
+.gridItem:hover{
+    width: 25px; 
+    height: 25px;
+    background-color: #f3d997;
+    display: inline-block;
+}
+
+.selected { 
+    background-color:#bae6af;
+}
+
+.gridRow { 
+    display: flex;
+}
+
+.btn { 
+    width: 100px;
+    height: 45px;
+    margin: 10px 20px;
+    border: none;
+}
+
+.btn:hover {
+    background-color:#bae6af;
+ }
